@@ -1,0 +1,39 @@
+✔ prints usage and exits 1 without arguments (55.8094ms)
+✔ exits 1 when the input file does not exist (47.0767ms)
+✔ folds constant expressions (249.2854ms)
+✔ creates missing output directories and never modifies the input (239.6599ms)
+✔ copies invalid input through unchanged with a warning (235.7518ms)
+✔ is idempotent: cleaning its own output changes nothing (520.9852ms)
+✔ real BLA 3.3.2 output (demo) is cleaned to the expected source (871.2526ms)
+✔ real BLA 3.3.2 output (ex2) is cleaned to the expected source (820.0424ms)
+✔ cleaned real output behaves like the original (883.3555ms)
+✔ is-number (balanced): cleaned output behaves like the original (1017.7689ms)
+✔ is-number (maximum): cleaned output behaves like the original (1288.4509ms)
+✔ is-number (full): cleaned output behaves like the original (1276.1771ms)
+✔ escape-html (balanced): cleaned output behaves like the original (1000.4889ms)
+✔ escape-html (maximum): cleaned output behaves like the original (1170.5311ms)
+✔ escape-html (full): cleaned output behaves like the original (1183.6098ms)
+✔ fast-deep-equal (balanced): cleaned output behaves like the original (975.0439ms)
+✔ fast-deep-equal (maximum): cleaned output behaves like the original (1229.4132ms)
+✔ fast-deep-equal (full): cleaned output behaves like the original (1237.3838ms)
+✔ bytes (balanced): cleaned output behaves like the original (1033.5981ms)
+✔ bytes (maximum): cleaned output behaves like the original (1191.3431ms)
+✔ bytes (full): cleaned output behaves like the original (1344.3585ms)
+✔ ms (balanced): cleaned output behaves like the original (1030.7751ms)
+✔ ms (maximum): cleaned output behaves like the original (1409.1718ms)
+✔ ms (full): cleaned output behaves like the original (1438.7ms)
+✔ camelcase (balanced): cleaned output behaves like the original (1107.1005ms)
+✔ camelcase (maximum): cleaned output behaves like the original (1284.0276ms)
+✔ camelcase (full): cleaned output behaves like the original (1339.5338ms)
+✔ dayjs (balanced): cleaned output behaves like the original (1459.5132ms)
+✔ dayjs (maximum): cleaned output behaves like the original (2293.9034ms)
+✔ dayjs (full): cleaned output behaves like the original (2345.4833ms)
+✔ acorn (maximum): cleaned output behaves like the original (30390.3022ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58134.1185

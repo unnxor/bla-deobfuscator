@@ -1,0 +1,57 @@
+{
+  "name": "bla-deobfuscator",
+  "version": "0.1.1",
+  "description": "Static deobfuscator for JavaScript protected with BLA (bla-agents). Never executes the input.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unnxor/bla-deobfuscator.git"
+  },
+  "homepage": "https://github.com/unnxor/bla-deobfuscator#readme",
+  "bugs": {
+    "url": "https://github.com/unnxor/bla-deobfuscator/issues"
+  },
+  "keywords": [
+    "deobfuscator",
+    "javascript",
+    "babel",
+    "ast",
+    "reverse-engineering",
+    "bla",
+    "bla-agents",
+    "static-analysis"
+  ],
+  "type": "module",
+  "bin": {
+    "bla-deobfuscator": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/cli.test.js test/corpus.test.js",
+    "results": "node scripts/results.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.18"
+  },
+  "dependencies": {
+    "@babel/generator": "7.29.14",
+    "@babel/parser": "7.29.14",
+    "@babel/traverse": "7.29.14",
+    "@babel/types": "7.29.14"
+  },
+  "devDependencies": {
+    "acorn": "8.12.1",
+    "bla-agents": "3.3.2",
+    "bytes": "3.1.2",
+    "camelcase": "6.3.0",
+    "dayjs": "1.11.13",
+    "escape-html": "1.0.3",
+    "fast-deep-equal": "3.1.3",
+    "is-number": "7.0.0",
+    "ms": "2.1.3"
+  }
+}
